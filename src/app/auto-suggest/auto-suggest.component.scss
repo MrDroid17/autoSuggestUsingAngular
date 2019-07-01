@@ -1,0 +1,16 @@
+.container{
+
+    height: 400px;
+    overflow:scroll;
+    & .suggestion{
+        border: 2px lightgray solid;
+        background: #ededed;
+        border-radius: 4px;
+        margin: 2px;
+        padding: 4px 15px;;
+    }
+    
+    & .suggestion:hover{
+        background: lightgray;
+    }
+}
